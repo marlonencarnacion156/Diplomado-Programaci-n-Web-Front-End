@@ -5,17 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
-    <form action="mailto:encarnacion.marlon@hotmail.com" method="POST" enctype="text/plain">
-        <p><label title="nombre">Nombre:</label> <input name="nombre" type="text" placeholder="Nombre"></p>
-        <p><label title="apellido">Apellido:</label> <input name="apellido" type="text" placeholder="Apellido"></p>
-        <p><label title="asunto">Asunto:</label> <input name="asunto" type="text" placeholder="Asunto"></p>
-        <p><label title="correo">Correo:</label> <input name="correo" type="email" placeholder="Correo"></p>
-        <p><textarea name="mensaje" id="" cols="30" rows="5" placeholder="Mensaje"></textarea></p>
-        <p><input type="submit" value="Enviar"></p>
-    </form>
+    <form action="" method="GET" enctype="text/plain">
+        
+        <h3>Formulario de contacto</h3>
+        <p><label class="label" title="nombre">Nombre:</label>
+            <br> <input name="nombre" type="text" placeholder=""></p>
+        <p><label class="label" title="apellido">Apellido:</label>
+            <br> <input name="apellido" type="text" placeholder=""></p>
+        <p><label class="label" title="asunto">Asunto:</label>
+            <br> <input name="asunto" type="text" placeholder=""></p>
+        <p><label class="co" class="label" title="correo">Correo:</label>
+            <br> <input name="correo" type="email" placeholder=""></p>
+        <p><label class="co" class="label" title="mensaje">Mensaje:</label>
+            <br> <textarea class="co" name="mensaje" id="" cols="40" rows="5" placeholder=""></textarea></p>
+        <p><input id="uju" type="submit" value="Enviar"></p>
+    </form> 
 </body>
 
 </html>
