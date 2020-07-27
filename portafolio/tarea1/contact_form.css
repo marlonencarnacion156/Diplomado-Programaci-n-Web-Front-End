@@ -48,7 +48,7 @@ section form input,textarea{
     border: solid 1px #0000ee;
 }
 
-#sub{
+#submit{
     position: absolute;
     right: 19px;
     width: 97.5px;

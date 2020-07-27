@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 a{
     color: #fff;
@@ -11,6 +10,14 @@ a{
 body{
     background: #99BFEA;
     font-family: 'Roboto', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: #0000ee;
+    font-weight: bold;
+    background-image: url(img/bu.png);
 }
 
 header{
@@ -23,6 +30,7 @@ header{
     align-items: center;
     padding: 0 30px;
     position: relative;
+    box-sizing: border-box;
 }
 
 header nav a:hover{
@@ -180,3 +188,160 @@ header nav{
     position: relative;
     left: 5px;
 }*/
+
+main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    border: solid 1px;
+    width: 790px;
+    height: 350px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+
+main section img{
+    width: 320px;
+    height: 225px;
+    border: solid 1px #0000ee;
+}
+
+section form input,textarea{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form{
+    margin-left: 60px;
+}
+
+.fas, .far{
+    padding-right: 8px;
+    color:#0000ee;
+}
+
+section form input,textarea{
+    width: 390px;
+    padding: 10px;
+    border: solid 1px #0000ee;
+}
+
+#submit{
+    position: absolute;
+    right: 19px;
+    width: 97.5px;
+    bottom: 2px;
+}
+
+.media{
+  
+    height: 15px;
+  
+    font-size: 32px;
+    position: absolute;
+    bottom: 39px;
+}
+
+.media i{
+    margin-right: 20px;
+}
+
+.title-container{
+    width: 790px;
+    height: 60px;
+    border: solid 1px;
+    position: absolute;
+    left: 50%; transform: translateX(-50%);
+    text-align: center;
+    top: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input:focus{
+    outline: none;
+    border: solid 1px #0000ee;
+    border: none;
+    border-bottom: solid 2px #0000ee;
+}
+
+textarea:focus{
+    outline: none;
+    border: solid 2px #0000ee;
+    color: #0000ee;
+}
+
+input[type="submit"]:hover{
+    background: #0000ee;
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 24px;
+    color: #0000ee;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.nav ul li:hover{
+    font-size: 32px;
+}
+
+section h4{
+    color: black;
+    text-decoration: none;
+    margin: 20px 0;
+}
+
+.fa-facebook-square:hover{
+    color:#3b5998;
+    transition: 0.5s;
+    font-size: 40px;
+}
+
+.fa-instagram-square:hover{
+    color: #8a3ab9;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.fa-twitter-square:hover{
+    color: #00acee;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.fa-youtube:hover{
+    color: #c4302b;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+.fa-linkedin:hover{
+    color:#0077b5;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+section a{
+    text-decoration: none;
+}
+
+ul li a{
+    color: #0000ee;
+}
+
+.media a{
+    color:#0000ee;
+}

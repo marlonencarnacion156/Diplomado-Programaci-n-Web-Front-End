@@ -6,17 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2 CSS GRID y Flex-box</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
     <main class="container">
-        <h4>Registrate</h4>
-        <form action="">
-            <p><label for="">Nombre</label> <input type="text" name="" id=""></p>
-            <p><label for="">Apellido</label> <input type="text" name="" id=""></p>
-            <p><textarea name="" id="" cols="30" rows="5">Memo</textarea></p>
-            <p><input type="submit" value="Enviar" id=""></p>
+        
+        <form action="" class="form-container">
+            <h2>Registrate</h2>
+            <div><input type="text" placeholder="Nombre" id=""></div>
+            <div><input type="text" placeholder="Apellido" id=""></div>
+            <div><input type="mail" placeholder="Correo" id=""></div>
+            <div><input type="password" placeholder="Contraseña" id=""></div>
+            <div><input type="password" placeholder="Confirmar Contarseña" id=""></div>
+            <div><input type="submit" value="Registrarse" id=""></div>
         </form>
+        <div class="social-media">
+            <h2>Iniciar Sesión Con:</h2>
+            <div class="facebook"><i class="fab fa-facebook-f"></i>Acceder con Facebook</div>
+            <div class="twitter"><i class="fab fa-twitter"></i>Acceder con Twitter</div>
+            <div class="linkedin"><i class="fab fa-linkedin-in"></i>Acceder con Linkedin</div>
+            <div class="google"><i class="fab fa-google-plus-g"></i>Acceder con Google +</div>
+        </div>
 
     </main>
 
