@@ -8,15 +8,16 @@
     outline: none;
 }
 
-body{
-    height: 100vh;
+
+.body2{
+    height: calc(100vh - 75px);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     background: #f2f2f2;
 }
 
-.container{
+.container2{
     display: grid;
     grid-template-columns: 1fr 1fr;
     box-shadow: 5px 5px 20px #0073B0;

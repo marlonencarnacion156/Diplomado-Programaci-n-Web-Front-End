@@ -33,10 +33,10 @@ header{
     box-sizing: border-box;
 }
 
-header nav a:hover{
+/*header nav a:hover{
     color:#266BBA;
     font-size: 18px;
-}
+}*/
 
 header::before{
     content: "";
@@ -338,10 +338,57 @@ section a{
     text-decoration: none;
 }
 
-ul li a{
-    color: #0000ee;
-}
 
 .media a{
     color:#0000ee;
 }
+
+
+/*----------------------------------------------------------------------------------------*/
+nav ul li{
+    display: inline;
+    position: relative;
+    padding: 4px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tarea1 li{
+    display: block;
+}
+
+.tarea1{
+    position: absolute;
+    top: 27px;
+    z-index: 150;
+    width: 200px;
+    background: #183059;
+    display: none;
+    border-top: solid 4px #266BBA;
+    border-top-right-radius: 5px;
+}
+
+nav ul li a{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#tarea1:hover .tarea1{
+   display: block;
+   transition: ease 5s;
+}
+
+#tarea1 ul li{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#tarea1 ul li:hover{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background: #373F51;
+}
+
+header nav ul li:hover{
+    color:#266BBA;
+    /*box-shadow: 5px 5px 50px #fff;*/
+    background: #266BBA;
